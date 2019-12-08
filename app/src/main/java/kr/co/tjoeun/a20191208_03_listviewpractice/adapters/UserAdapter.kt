@@ -1,6 +1,7 @@
 package kr.co.tjoeun.a20191208_03_listviewpractice.adapters
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -15,6 +16,9 @@ class UserAdapter(context:Context, resid:Int, list:ArrayList<User>) : ArrayAdapt
     val inf = LayoutInflater.from(mContext)
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+
+        Log.d("getview실행","${position}번 줄 그리기")
+
         var tempRow = convertView
         if ( tempRow == null ){
             tempRow = inf.inflate(R.layout.user_list_item, null)
