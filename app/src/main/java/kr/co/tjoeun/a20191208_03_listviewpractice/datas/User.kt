@@ -1,8 +1,8 @@
 package kr.co.tjoeun.a20191208_03_listviewpractice.datas
 
-class User {
+class User(inputName:String, inputAddress:String, isWomenOK:Boolean) {
 
-    var name = ""
-    var address ="미입력"
-    var isWoment =false
+    var name = inputName
+    var address = inputAddress
+    var isWomen = isWomenOK
 }
