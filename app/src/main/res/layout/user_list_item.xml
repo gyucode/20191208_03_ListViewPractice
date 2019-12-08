@@ -10,18 +10,21 @@
         android:padding="5dp">
 
         <TextView
+            android:id="@+id/userNameTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:text="사용자이름"/>
 
         <TextView
+            android:id="@+id/userAddressTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:text="(거주지)"/>
 
         <TextView
+            android:id="@+id/userGenderTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="남성/여성 여부"
