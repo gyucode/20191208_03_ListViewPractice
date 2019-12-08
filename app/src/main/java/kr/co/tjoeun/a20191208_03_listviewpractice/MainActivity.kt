@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
 
         Log.d("사용자주소",tempUser.address)
 
+        val tempUser2 = User()
+        Log.d("사용자주소",tempUser2.address)
 
     }
 }
